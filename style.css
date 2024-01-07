@@ -49,7 +49,6 @@ ul li {
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -59,7 +58,6 @@ ul li {
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 72px;
-  font-style: normal;
   font-weight: 900;
   line-height: 95px;
 }
@@ -77,7 +75,6 @@ ul li {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 88px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
@@ -88,7 +85,6 @@ ul li {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
@@ -98,13 +94,88 @@ ul li {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .new_year_off_banner_image {
   width: 802.9px;
   height: 500px;
+}
+.new_year_off_banner_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* WELCOME SECTION STYLES  */
+.welcome_section {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+.welcome_container {
+  padding-left: 126px;
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 39.17px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+  position: relative;
+}
+.welcome_container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("./assets/Vectorrr.png");
+  z-index: -1;
+}
+.welcome_text_content {
+  width: 697px;
+}
+.welcome_title {
+  width: 642px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.welcome_subtitle {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.welcome_btn {
+  margin-left: 32px;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.welcome_image_content {
+  width: 319.83px;
+  height: 464.662px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
 }
 .new_year_off_banner_image img {
   width: 100%;
