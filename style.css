@@ -166,6 +166,10 @@ ul li {
   border: none;
   outline: none;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.welcome_btn:hover {
+  color: #f00;
 }
 
 .welcome_image_content {
@@ -246,6 +250,13 @@ ul li {
   border: none;
   outline: none;
   cursor: pointer;
+  border: 1px solid #f00;
+  transition: 0.5s ease-in-out;
+}
+.party_join_btn:hover {
+  color: #f00;
+  background: #fff;
+  border: 1px solid #f00;
 }
 /* OFFER SECTION STYLES  */
 .offer_section {
@@ -385,9 +396,6 @@ ul li {
   left: 0;
   background: url("./assets/Rectangle\ 2.png");
   z-index: -1;
-  /* opacity: 0.3; */
-  background-blend-mode: multiply;
-  mix-blend-mode: multiply;
 }
 .sale_image_content::after {
   content: "";
@@ -601,6 +609,14 @@ ul li {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #f00;
+}
+.subscribe_inp_field button:hover {
+  color: #070211;
+  background: #fff;
+  border: 1px solid #f00;
 }
 /* FOOTER STYLES  */
 .footer_section {
@@ -645,6 +661,10 @@ ul li {
   gap: 16px;
   align-items: center;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.contact_number:hover {
+  color: #cccccc;
 }
 .contact_number img {
   width: 24px;
@@ -661,6 +681,10 @@ ul li {
   align-items: center;
   gap: 16px;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.website:hover {
+  color: #cccccc;
 }
 .website img {
   width: 24px;
@@ -709,4 +733,9 @@ ul li {
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.unsubscribe:hover {
+  color: #cccccc;
 }
