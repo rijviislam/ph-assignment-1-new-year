@@ -340,6 +340,7 @@ a {
   object-fit: contain;
 }
 /* SALE SECTION STYLES  */
+/* SALE SECTION STYLES  */
 .sale_section {
   margin-top: 120px;
   display: flex;
@@ -398,11 +399,11 @@ a {
 .sale_image_content::after {
   content: "";
   position: absolute;
-  top: 168px;
-  right: 320px;
-  width: 206.841px;
-  height: 206.841px;
-  background: url("./assets/Group\ 44.png");
+  top: 155px;
+  right: 313px;
+  width: 220.048px;
+  height: 220.119px;
+  background-image: url("./assets/Group\ 44.png");
   background-size: contain;
 }
 .mystery_box_and_discount_img {
@@ -412,7 +413,6 @@ a {
   gap: 95px;
   align-items: start;
 }
-
 .mystery_img {
   width: 796.463px;
   height: 662.07px;
